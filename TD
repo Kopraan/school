@@ -1,0 +1,9 @@
+r,c="kayak",""
+i=len(r)-1
+while(i>-1):
+    c+=r[i]
+    i-=1
+if(r==c):
+    print("Palindrome")
+
+
