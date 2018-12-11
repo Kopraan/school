@@ -1,0 +1,9 @@
+l1=[1,2,4,7,2,8,2,35,9,2]
+i=0
+a=l1[0]
+while i<len(l1):
+    if a<l1[i]:
+        a=l1[i]
+    i+=1
+print(a," est le plus grand chiffre")
+    
