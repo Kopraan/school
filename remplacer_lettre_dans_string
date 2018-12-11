@@ -1,0 +1,11 @@
+a="go gooo"
+b=""
+i=float(input("i= "))
+j=0
+while j<len(a):
+    if j==i:
+        b+="?"
+    else:
+        b+=a[j]
+    j+=1
+print(b)
