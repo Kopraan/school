@@ -1,0 +1,7 @@
+a="SKRT"
+b=""
+i=0
+while i<len(a):
+    b+=a[i]+"*"
+    i+=1
+print(b)
